@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sectionp1{
+    padding: 40px 60px;
+}
+.navbar{
+    background-color: #dfebf5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 40px;
+}
+.navbar img{
+    border-radius: 50%;
+    height: 75px;
+    opacity: 1;
+}
+.rightnav {
+    margin: 25px;
+}
+.rightnav ul{
+    display: flex;
+}
+.rightnav ul li{
+    list-style-type: none;
+    padding: 0px 10px;
+    border: 2px solid rgb(105, 102, 102);
+    border-radius: 12px;
+    margin: 0px 10px;
+}
+.rightnav ul li:hover{
+    background-color: rgb(105, 102, 102);
+    color: antiquewhite;
+}
+.rightnav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.rightnav ul li a:hover{
+    color: antiquewhite;
+}
+.about{
+    background-image: url(img/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.display1{
+    text-align: left;
+}
+.display2{
+    text-align: right;
+}
+.about h4{
+    padding-bottom: 15px;
+}
+.about h1{
+    color: #52aacc;
+
+}
+.about button{
+    background: url(img/button.png);
+    background-color: transparent;
+    color: #52aacc;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+#product1{
+    text-align: center;
+}
+#product1 h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+#product1 .pro{
+    width: 20%;
+    padding: 10px 12px;
+    border: 1px solid #434b44;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0px;
+    transition: 0.2s ease;
+    position: relative;
+
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product1 .pro img{
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+    transition: 1s ease;
+}
+#product1 .pro img:hover{
+    display: none;
+}
+#product1 .pro .img1{
+    position: absolute;
+    left: 10px;
+    width: 90%;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 16px;
+    font-weight: 600;
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 20px;
+
+}
+#product1 .pro .des i{
+    color: rgb(243,181,25);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #088178;
+}
+#spof{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#demo{
+    font-size: 30px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+.offersec{
+    width: 100%;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    margin: 0px 50px;
+}
+.offer img{
+    width: 30%;
+    margin: 40px 0px;
+}
+.offer .ofdiv{
+    width: 40%;
+    margin: 100px;
+}
+.product1 div h1{
+    font-weight: 800;
+}
+.brands{
+    padding: 0px 40px;
+}
+.brlogo{
+    display: flex;
+    justify-content: space-between;
+}
+.brimg{
+    margin: 0px 20px;
+    filter: grayscale(100%);
+}
+.brimg img{
+    width: 100%;
+}
+.brimg:hover{
+    filter: grayscale(0%);
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(251, 246, 225, 0.788);
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 5 px;
+    height: 80px;
+    border-radius: 50%;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    margin-bottom:10px ;
+    text-decoration: none;
+    color: #222;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+@media (max-width:768px) {
+    .about{
+        background-size: contain;
+        height: 70vh;
+    }
+    #spof{
+        font-size: 30px;
+    }
+    #demo{
+        font-size: 15px;
+    }
+    .offer{
+        display: block;
+        padding: 40px;
+    }
+    .offer img{
+        width: 80%;
+        height: 40%;
+    }
+    .offer .ofdiv{
+        margin: 20px;
+        width: 80%;
+    }
+}
+@media (max-width:615px) {
+    .sectionp1{
+        padding: 20px;
+        margin: 0px;
+    }
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .display1{
+        padding-top: 50%;
+    }
+    .display2{
+        display: none;
+    }
+    .about h4{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .about h2{
+        font-size: 20px;        
+        padding-bottom: 15px;
+    }
+    .about h1{
+        color: #52aacc;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .about button{
+        font-size: 15px;
+        margin-top: 12px;
+    }
+    .rightnav{
+        display: none;
+    }
+    .rightnav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .about{
+        background-size: cover;
+        display: block;
+    }
+    .display1{
+        text-align: center;
+    }
+    .display2{
+        text-align: center;
+    }
+    #product1{
+        display: block;
+    }
+    #product1 h2{
+        font-size: 25px;
+    }
+    .pro-container{
+        display: block;
+        justify-content: space-between;
+    }
+    #product1 .pro{
+        width: 40%;
+    }
+    #spof{
+        font-size: 15px;
+    }
+    footer{
+        width:100%
+    }
+    .offer{
+        padding: 0px 20px;
+        align-items: center;
+        margin: 20px;
+    }
+    .offer img{
+        margin: 20px;
+    }
+    .offer .ofdiv{
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+        padding: 0px;
+        text-align: center;
+    }
+}
